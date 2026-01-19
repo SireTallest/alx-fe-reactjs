@@ -5,8 +5,8 @@ const Counter = ()=>{
         
         <div>
             <p>Current Count: {count}</p>
-            <button onClick={() => setCount(count + 1)}>count: {count}</button>
-            <button onClick={() => setCount(count - 1)}>count: {count}</button>
+            <button onClick={() => setCount(count + 1)}>Increment: {count}</button>
+            <button onClick={() => setCount(count - 1)}>Decrement: {count}</button>
             <button onClick={() => setCount(0)}>Reset Count</button>
         </div>
         
