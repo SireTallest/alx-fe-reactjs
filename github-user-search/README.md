@@ -8,7 +8,7 @@ To get this project running on your local machine, follow these steps:
 
 - **Clone the Repository**
   ```bash
-  git clone https://gitub.com/SireTallest/Social-links-froontend.io.git
+  git clone https://gitub.com/SireTallest/alx-fe-reactjs-github-user-search.io.git
   ```
 
 - **Navigate to the Project Directory**
