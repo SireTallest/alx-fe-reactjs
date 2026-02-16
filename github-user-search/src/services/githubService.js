@@ -6,7 +6,7 @@ const API_KEY = import.meta.env.VITE_GITHUB_API_KEY;
 const headers = API_KEY ? { Authorization: `Bearer ${API_KEY}` } : {};
 
 // Search users
-export const searchUsers = async ({ username, location, minRepos }) => {
+export const fetchUserData = async ({ username, location, minRepos }) => {
   let query = "";
   if (username) query += `${username} in:login`;
   if (location) query += ` location:${location}`;
