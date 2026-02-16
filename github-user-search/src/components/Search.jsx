@@ -69,7 +69,7 @@ const Search = () => {
           <input
             id="username"
             type="text"
-            placeholder="e.g. torvalds"
+            placeholder="e.g. octocat"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             className="px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-black"
@@ -106,7 +106,7 @@ const Search = () => {
 
         <button
           type="submit"
-          className="mt-4 bg-black text-white py-2 rounded-lg hover:bg-gray-800 transition duration-200"
+          className="mt-4 bg-black text-white py-2 rounded-lg font-bold hover:bg-gray-800 cursor-pointer transition duration-200"
         >
           Search
         </button>
