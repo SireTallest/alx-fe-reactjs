@@ -114,7 +114,7 @@ const Search = () => {
 
       {/* Loading/Error */}
       {loading && <p className="mt-4 text-center">Loading...</p>}
-      {error && <p className="mt-4 text-center text-red-500">"Looks like we cant find the user"</p>}
+      {error && <p className="mt-4 text-center text-red-500">Looks like we can't find the user</p>}
 
       {/* Users Results */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-6">
