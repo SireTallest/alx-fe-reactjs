@@ -68,4 +68,4 @@ Contributions make the open-source community an amazing place to learn and creat
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-7.2-646CFF?style=flat&logo=vite)
 ![Axios](https://img.shields.io/badge/Axios-1.13-5A29E4?style=flat&logo=axios)
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen)
+![Build Status](https://img.shields.io/badge/Build-
