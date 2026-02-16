@@ -1,4 +1,4 @@
-# GitHub Explorer 🔍
+# GitHub Explorer🔍
 
 ## Description
 GitHub Explorer is a modern, high-performance web application built with React 19 and Vite. It provides a streamlined interface for searching and viewing GitHub user profiles, leveraging the GitHub API to fetch real-time data. Designed with a focus on speed and clean UI, the project demonstrates efficient state management and API integration.
