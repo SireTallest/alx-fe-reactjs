@@ -26,7 +26,7 @@ To get this project running on your local machine, follow these steps:
   npm run dev
   ```
 
-## Usage
+# Usage
 Once the development server is running, you can access the application in your browser at `http://localhost:5173`. 
 
 1. Enter a valid GitHub username into the search input.
