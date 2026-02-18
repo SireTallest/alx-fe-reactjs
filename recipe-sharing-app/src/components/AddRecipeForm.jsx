@@ -1,35 +1,61 @@
+import { useState } from 'react';
+import useRecipeStore from './recipeStore.js';
 
-  import { useState } from 'react';
-  import { useRecipeStore } from './recipeStore';
+const AddRecipeForm = () => {
+  const addRecipe = useRecipeStore((state) => state.addRecipe);
 
-  const AddRecipeForm = () => {
-    const addRecipe = useRecipeStore(state => state.addRecipe);
-    const [title, setTitle] = useState('');
-    const [description, setDescription] = useState('');
+  const [title, setTitle] = useState('');
+  const [ingredients, setIngredients] = useState('');
+  const [instructions, setInstructions] = useState('');
 
-    const handleSubmit = (event) => {
-      event.preventDefault();
-      addRecipe({ id: Date.now(), title, description });
-      setTitle('');
-      setDescription('');
-    };
+  const handleSubmit = (event) => {
+    event.preventDefault();
 
-    return (
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          value={title}
-          onChange={(e) => setTitle(e.target.value)}
-          placeholder="Title"
-        />
-        <textarea
-          value={description}
-          onChange={(e) => setDescription(e.target.value)}
-          placeholder="Description"
-        />
-        <button type="submit">Add Recipe</button>
-      </form>
-    );
+    // Validation: prevent empty title
+    if (!title.trim()) return alert("Title cannot be empty");
+
+    addRecipe({
+      id: Date.now(),
+      title,
+      ingredients,
+      instructions,
+    });
+
+    // Reset form
+    setTitle('');
+    setIngredients('');
+    setInstructions('');
   };
 
-  export default AddRecipeForm;
+  return (
+    <form onSubmit={handleSubmit} className="p-4 space-y-2">
+      <input
+        type="text"
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}
+        placeholder="Title"
+        className="border p-2 w-full rounded"
+      />
+      <textarea
+        value={ingredients}
+        onChange={(e) => setIngredients(e.target.value)}
+        placeholder="Ingredients"
+        className="border p-2 w-full rounded"
+      />
+      <textarea
+        value={instructions}
+        onChange={(e) => setInstructions(e.target.value)}
+        placeholder="Instructions"
+        className="border p-2 w-full rounded"
+      />
+      <button
+        type="submit"
+        className="bg-green-500 text-white px-4 py-2 rounded"
+      >
+        Add Recipe
+      </button>
+    </form>
+  );
+};
+
+export default AddRecipeForm;
