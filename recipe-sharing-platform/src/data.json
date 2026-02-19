@@ -3,12 +3,84 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/600x400",
+    "time": "30 mins",
+    "servings": 4,
+    "difficulty": "Medium",
+    "ingredients": [
+      "400g spaghetti",
+      "200g pancetta or bacon",
+      "4 large eggs",
+      "100g Pecorino Romano cheese",
+      "100g Parmesan cheese",
+      "2 cloves garlic",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Bring a large pot of salted water to a boil and cook spaghetti until al dente.",
+      "While pasta cooks, fry the pancetta with garlic in a large pan until crispy.",
+      "In a bowl, whisk together eggs, Pecorino Romano, and Parmesan cheese.",
+      "Drain pasta, reserving 1 cup of pasta water.",
+      "Remove pan from heat, add pasta to pancetta, then pour egg mixture over it.",
+      "Toss quickly, adding pasta water little by little until creamy.",
+      "Season with black pepper and serve immediately."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
-    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://via.placeholder.com/150"
+    "summary": "Chunks of grilled chicken cooked in a smooth buttery and creamy tomato based gravy.",
+    "image": "https://via.placeholder.com/600x400",
+    "time": "45 mins",
+    "servings": 4,
+    "difficulty": "Medium",
+    "ingredients": [
+      "500g chicken breast, cubed",
+      "1 cup plain yogurt",
+      "2 tbsp tikka masala spice mix",
+      "1 can (400g) crushed tomatoes",
+      "1 cup heavy cream",
+      "1 large onion, diced",
+      "3 cloves garlic, minced",
+      "1 tbsp ginger paste",
+      "2 tbsp butter",
+      "Salt to taste",
+      "Fresh cilantro for garnish"
+    ],
+    "steps": [
+      "Marinate chicken in yogurt and tikka spice mix for at least 1 hour.",
+      "Grill or pan-fry marinated chicken until charred and cooked through.",
+      "In a large pan, melt butter and sauté onion until golden brown.",
+      "Add garlic and ginger paste, cook for 2 minutes until fragrant.",
+      "Pour in crushed tomatoes and simmer for 10 minutes.",
+      "Stir in heavy cream and add the grilled chicken pieces.",
+      "Simmer for another 10 minutes, season with salt, and garnish with cilantro."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Avocado Toast",
+    "summary": "A simple and healthy breakfast with creamy avocado spread on crispy toasted bread.",
+    "image": "https://via.placeholder.com/600x400",
+    "time": "10 mins",
+    "servings": 2,
+    "difficulty": "Easy",
+    "ingredients": [
+      "2 slices sourdough bread",
+      "1 ripe avocado",
+      "1 lemon, juiced",
+      "Salt and pepper to taste",
+      "Red pepper flakes",
+      "2 eggs (optional, poached)",
+      "Fresh microgreens for garnish"
+    ],
+    "steps": [
+      "Toast the sourdough bread slices until golden and crispy.",
+      "Halve the avocado, remove the pit, and scoop flesh into a bowl.",
+      "Mash the avocado with lemon juice, salt, and pepper to your preferred texture.",
+      "Spread the mashed avocado generously over each toast slice.",
+      "Top with red pepper flakes, microgreens, and a poached egg if desired.",
+      "Serve immediately and enjoy."
+    ]
   }
 ]
