@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/600x400",
+    "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600",
     "time": "30 mins",
     "servings": 4,
     "difficulty": "Medium",
@@ -30,7 +30,7 @@
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken cooked in a smooth buttery and creamy tomato based gravy.",
-    "image": "https://via.placeholder.com/600x400",
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600",
     "time": "45 mins",
     "servings": 4,
     "difficulty": "Medium",
@@ -58,10 +58,11 @@
     ]
   },
   {
+
     "id": 3,
     "title": "Avocado Toast",
     "summary": "A simple and healthy breakfast with creamy avocado spread on crispy toasted bread.",
-    "image": "https://via.placeholder.com/600x400",
+   "image": "https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?w=600",
     "time": "10 mins",
     "servings": 2,
     "difficulty": "Easy",
