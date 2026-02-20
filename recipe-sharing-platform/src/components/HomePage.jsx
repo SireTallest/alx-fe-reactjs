@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import recipeData from "../data.json";
+import { Link } from 'react-router-dom';
 
 export default function HomePage() {
   const [recipes, setRecipes] = useState([]);
@@ -34,9 +35,18 @@ export default function HomePage() {
 
       {/* Recipe Grid */}
       <main className="max-w-6xl mx-auto px-6 pb-16">
-        <h3 className="text-xl font-semibold text-gray-700 mb-6">
-          All Recipes ({recipes.length})
-        </h3>
+          <div className="flex items-center justify-between mb-6">
+            <h3 className="text-xl font-semibold text-gray-700">
+              All Recipes ({recipes.length})
+            </h3>
+            <Link
+              to="/add-recipe"
+              className="bg-orange-500 text-white text-sm font-semibold px-4 py-2 rounded-xl hover:bg-orange-600 transition-colors"
+            >
+              + Add Recipe
+            </Link>
+          </div>
+       
 
         <div className="
           grid
@@ -115,7 +125,7 @@ export default function HomePage() {
 
       {/* Footer */}
       <footer className="text-center text-sm text-gray-400 py-8 border-t border-gray-200">
-        © 2025 RecipeShare. Made with ❤️ and Tailwind CSS.
+        © 2026 RecipeShare. Made with ❤️ and Tailwind CSS by Oladepo Abdulbaki Opeyemi <a href="mailto:abdoladepo@gmail.com" className="text-orange-500 hover:underline">abdoladepo@gmail.com</a>.
       </footer>
     </div>
   );
