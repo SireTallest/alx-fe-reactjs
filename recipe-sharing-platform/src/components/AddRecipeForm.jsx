@@ -19,7 +19,7 @@ export default function AddRecipeForm() {
 
   // Update state as user types
   const handleChange = (e) => {
-    const { name, value } = e.target;
+    const { name, value } = target.value;
     setFormData((prev) => ({ ...prev, [name]: value }));
     // Clear that field's error as soon as user starts fixing it
     setErrors((prev) => ({ ...prev, [name]: '' }));
