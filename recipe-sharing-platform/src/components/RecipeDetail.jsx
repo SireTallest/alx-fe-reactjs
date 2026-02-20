@@ -140,7 +140,7 @@ export default function RecipeDetail() {
 
       {/* Footer */}
       <footer className="text-center text-sm text-gray-400 py-8 mt-10 border-t border-gray-200">
-        © 2026 RecipeShare. Made with ❤️ and Tailwind CSS.
+        © 2026 RecipeShare. Made with ❤️ and Tailwind CSS by Oladepo Abdulbaki Opeyemi <a href="mailto:abdoladepo@gmail.com" className="text-orange-500 hover:underline">abdoladepo@gmail.com</a>.
       </footer>
     </div>
   );
