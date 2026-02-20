@@ -116,7 +116,7 @@ export default function RecipeDetail() {
                     <div className="lg:col-span-2">
                         <div className="bg-white rounded-2xl shadow-md p-6">
                             <h3 className="text-xl font-bold text-gray-800 mb-5 flex items-center gap-2">
-                                👨‍🍳 Instructions
+                                👨‍🍳 instructions
                             </h3>
                             <ol className="space-y-5">
                                 {recipe.steps.map((step, index) => (
