@@ -78,7 +78,7 @@ export default function AddRecipeForm() {
     // All good — show success message
     setSubmitted(true);
 
-    // In a real app you would POST to an API here. For this demo, we'll just log the data and redirect home.
+    // API would be here on a real app, but since this is still a demo, I am sticking to the data structure in the JSON file and logging the new recipe to the console instead.
     console.log('New Recipe Submitted:', {
       ...formData,
       ingredients: formData.ingredients.split('\n').filter((i) => i.trim()),
@@ -140,7 +140,7 @@ export default function AddRecipeForm() {
           <div className="bg-orange-500 px-8 py-6">
             <h2 className="text-2xl font-extrabold text-white">Add a New Recipe</h2>
             <p className="text-orange-100 text-sm mt-1">
-              Share your favourite dish with the community.
+              Share your favorite dish with the community.
             </p>
           </div>
 
