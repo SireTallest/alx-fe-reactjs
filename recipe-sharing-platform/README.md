@@ -201,6 +201,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Author Info
 **Oladepo Abdulbaki Opeyemi**
+(https://github.com/SireTallest)
+- **LinkedIn** - (https://www.linkedin.com/in/abdulbaki-oladepo-4998b6213/)
+- **Twitter** - (https://x.com/sire_tallest)
 
 
 ---
