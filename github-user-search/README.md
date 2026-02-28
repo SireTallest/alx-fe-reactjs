@@ -62,8 +62,9 @@ Contributions make the open-source community an amazing place to learn and creat
 
 ## Author Info
  **Oladepo Abdulbaki**
-
-
+(https://github.com/SireTallest)
+- **LinkedIn** - (https://www.linkedin.com/in/abdulbaki-oladepo-4998b6213/)
+- **Twitter** - (https://x.com/sire_tallest)
 ---
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react)
